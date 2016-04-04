@@ -1,0 +1,14 @@
+{application, callback,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+		  mnesia,
+		  cowboy
+                 ]},
+  {mod, { callback_app, []}},
+  {env, []}
+ ]}.
