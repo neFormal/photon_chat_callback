@@ -1,8 +1,8 @@
-dependencies:
+# dependencies:
 1. erlang 16b02 with libssl, libncurses
 2. python2.7, python-pip, python-dev
 
-deploy order:
+# deploy order:
 1. pip install -r reqs.txt
 2. fab deploy
 3. fab start
